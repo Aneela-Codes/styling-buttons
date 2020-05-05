@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    position:absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-30%, -30%);
+}
+.space{
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+}
+#cart{
+    padding: 15px 60px;
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+}
+#cart:hover{
+    background-color: tomato;
+}
+#start{
+    padding: 10px 25px;
+    background-color: yellow;
+    border: 2px solid #30336b;
+
+}
+#start:hover{
+    background-color: #30336b;
+    color: yellow;
+    border: 2px solid #30336b;
+
+}
+#login{
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-image: linear-gradient(to left,#2ecc71, #16a085 );
+    color: white;
+}
+#sign{
+    padding: 10px 20px;
+    color: #8e44ad;
+    border: 2px solid #8e44ad;
+}
+#sign:hover{
+    color: white;
+    background-color: #8e44ad;
+   
+}
+#subs{
+    padding: 15px 50px;
+background-image: linear-gradient(to bottom, #f1c40f,#e67e22);
+color: white;
+}
+#subs:hover{
+background-image: none;
+background-color: #e67e22;
+}
+#twitter{
+    padding: 15px 17px;
+    border-radius: 50%;
+    border: 2px solid #2980b9;
+    color: #2980b9;
+    font-size: 22px;
+}
+#twitter:hover{
+       background-color: #2980b9;
+       color:white;
+}
